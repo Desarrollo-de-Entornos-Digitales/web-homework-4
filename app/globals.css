@@ -24,7 +24,9 @@
   --color-base-200: #f8fafc;
   --color-base-300: #e2e8f0;
   --color-base-content: #1e293b;
+}
 
+@plugin "daisyui/theme" {
   name: "icesi-dark";
   color-scheme: dark;
   --color-primary: #7b7bf2;
