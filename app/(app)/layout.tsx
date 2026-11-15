@@ -12,6 +12,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 const LINKS = [
         { href: "/dashboard", label: "Dashboard" },
         { href: "/exercises", label: "Ejercicios" },
+        { href: '/routines', label: 'Rutinas' },
     ];
 const pathname = usePathname();
 const router = useRouter();
